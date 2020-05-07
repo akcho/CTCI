@@ -1,0 +1,27 @@
+cmake_minimum_required(VERSION 3.16)
+project(CTCI)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(CTCI
+#        main.cpp)
+#        IsPalindromePermutation1.cpp)
+#        IsPalindromePermutation2.cpp)
+#        IsPalindromePermutation3.cpp)
+#        OneAway1.cpp)
+#        OneAway2.cpp)
+#        RotateMatrix1.cpp)
+#        ZeroMatrix1.cpp)
+#        ZeroMatrix2.cpp)
+#        IsRotation.cpp)
+#        LinkedList.cpp)
+#        DeleteDups.cpp)
+#        DeleteDups2.cpp)
+#        ReturnKthToLast.cpp
+#        ReturnKthToLast2B.cpp)
+#        ReturnKthToLast3.cpp
+#        DeleteMiddleNode.cpp)
+#        Partition.cpp)
+#        Partition2.cpp)
+#        SumListsA.cpp)
+        SumListsB.cpp)
