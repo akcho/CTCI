@@ -60,12 +60,9 @@ PartialSum* AddListsHelper(Node* l1, Node* l2) {
     /* Add carry to current data */
     int val = sum->carry + l1->data + l2->data;
 
-    /* Insert sum of current digits */
-    Node* full_result = InsertBefore(sum->sum, val % 10);
-
     /* Return sum so far, and the carry value */
-    sum->sum = full_result;
-        sum->carry = val / 10;
+    sum->sum = InsertBefore(sum->sum, val % 10);
+    sum->carry = val / 10;
     return sum;
 }
 
