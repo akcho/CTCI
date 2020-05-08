@@ -17,10 +17,10 @@ void PrintList(Node* n) {
 Node* ReverseAndClone(Node* node) {
     Node* head = nullptr;
     while (node != nullptr) {
-        Node* n = new Node();
-        n->data = node->data;
-        n->next = head;
-        head = n;
+        Node* new_node = new Node();
+        new_node->data = node->data;
+        new_node->next = head;
+        head = new_node;
         node = node->next;
     }
     return head;
