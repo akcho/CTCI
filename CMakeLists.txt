@@ -24,4 +24,6 @@ add_executable(CTCI
 #        Partition.cpp)
 #        Partition2.cpp)
 #        SumListsA.cpp)
-        SumListsB.cpp Palindrome1.cpp)
+#        SumListsB.cpp)
+#        Palindrome1.cpp)
+        Palindrome2.cpp)
