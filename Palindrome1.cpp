@@ -16,6 +16,7 @@ void PrintList(Node* n) {
 
 Node* ReverseAndClone(Node* node) {
     Node* head = nullptr;
+
     while (node != nullptr) {
         Node* new_node = new Node();
         new_node->data = node->data;
@@ -34,7 +35,7 @@ bool IsEqual(Node* l1, Node* l2) {
         l1 = l1->next;
         l2 = l2->next;
     }
-    return l1 == nullptr && l2 == nullptr;
+    return true;
 }
 
 
@@ -63,7 +64,7 @@ int main() {
     third->data = 3; // assign data to third node
     third->next = NULL;
 
-    PrintList(head);
+    PrintList(ReverseAndClone(head));
 
     return 0;
 }
