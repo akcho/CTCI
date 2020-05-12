@@ -28,7 +28,7 @@ Result GetTailAndSize(Node* list) {
     if (list == nullptr) return Result(nullptr, 0);
     int size = 1;
     Node* current = list;
-    while (current->next = nullptr) {
+    while (current->next != nullptr) {
         size++;
         current = current->next;
     }
@@ -126,7 +126,6 @@ int main() {
 
 
     Node* answer = FindIntersection(A, one);
-    cout << answer->data << endl
-    ;
+    cout << answer->data << endl;
     return 0;
 }
