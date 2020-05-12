@@ -96,15 +96,6 @@ int main() {
     i2 = new Node();
     i3 = new Node();
 
-    intersection->data = 100;
-    intersection->next = i2;
-
-    i2->data = 200;
-    i2->next = i3;
-
-    i3-> data = 300;
-    i3->next = nullptr;
-
     one->data = 1; // assign data in first node
     one->next = two; // Link first node with second
 
@@ -123,7 +114,14 @@ int main() {
     C->data = 13; // assign data to third node
     C->next = intersection;
 
+    intersection->data = 100;
+    intersection->next = i2;
 
+    i2->data = 200;
+    i2->next = i3;
+
+    i3-> data = 300;
+    i3->next = nullptr;
 
     Node* answer = FindIntersection(A, one);
     cout << answer->data << endl;

@@ -28,4 +28,4 @@ add_executable(CTCI
 #        Palindrome1.cpp)
 #        Palindrome2.cpp
 #        Palindrome3.cpp)
-        FindIntersection.cpp)
+        FindIntersection.cpp LoopDetection.cpp)

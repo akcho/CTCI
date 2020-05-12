@@ -38,9 +38,7 @@ bool IsPalindromeRecurse(Node* head, int length, Node** next) {
     bool result = IsPalindromeRecurse(head->next, length - 2, next);
 
     /* If child calls are not a palindrome, pass back up a failure. */
-    if (!result || next == nullptr) {
-        return false;
-    }
+    if (!result || next == nullptr) return false;
 
     /* Check if matches corresponding node on other side. */
     result = (head->data == (*next)->data);
