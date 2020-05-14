@@ -14,7 +14,17 @@ void PrintList(Node* n) {
     }
 }
 
+Node* FindBeginning(Node* head) {
+    Node* slow = head;
+    Node* fast = head;
 
+    /* Find meeting point. This will be LOOP_SIZE - k steps into the linked list. */
+    while (fast != nullptr && fast->next != nullptr) {
+        slow = slow->next;
+        fast = fast->next->next;
+        if (slow == fast) break;    // Collision
+    }
+}
 
 int main() {
     Node* head = NULL;
