@@ -29,4 +29,7 @@ add_executable(CTCI
 #        Palindrome2.cpp
 #        Palindrome3.cpp)
 #        FindIntersection.cpp)
-        LoopDetection.cpp)
+#        LoopDetection.cpp)
+#        Stack.cpp)
+#        Queue.cpp)
+        BubbleSort.cpp)
