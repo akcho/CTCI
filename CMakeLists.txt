@@ -32,4 +32,5 @@ add_executable(CTCI
 #        LoopDetection.cpp)
 #        Stack.cpp)
 #        Queue.cpp)
-        BubbleSort.cpp)
+#        BubbleSort.cpp)
+        SelectionSort.cpp)
