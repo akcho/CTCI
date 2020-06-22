@@ -33,4 +33,6 @@ add_executable(CTCI
 #        Stack.cpp)
 #        Queue.cpp)
 #        BubbleSort.cpp)
-        SelectionSort.cpp)
+#        SelectionSort.cpp)
+#        MergeSort.cpp)
+#        QuickSort.cpp)
